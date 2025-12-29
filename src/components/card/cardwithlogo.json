@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_card_cardwithlogos",
+  "info": {
+    "displayName": "cardwithlogo",
+    "icon": "crop"
+  },
+  "options": {},
+  "attributes": {
+    "logo": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "label": {
+      "type": "string"
+    },
+    "link": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

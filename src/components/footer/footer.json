@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_footer_footers",
+  "info": {
+    "displayName": "Footer"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string"
+    },
+    "FooterTabs": {
+      "type": "component",
+      "component": "nav.nav-link",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

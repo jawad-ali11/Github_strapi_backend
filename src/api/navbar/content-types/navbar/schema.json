@@ -1,0 +1,35 @@
+{
+  "kind": "collectionType",
+  "collectionName": "navbars",
+  "info": {
+    "singularName": "navbar",
+    "pluralName": "navbars",
+    "displayName": "Navbar"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "logo": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "items": {
+      "type": "component",
+      "component": "nav.nav-item",
+      "repeatable": true
+    },
+    "button": {
+      "type": "component",
+      "component": "nav.nav-link",
+      "repeatable": true
+    }
+  }
+}

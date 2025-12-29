@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_tabs_tabs",
+  "info": {
+    "displayName": "tabs"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string"
+    },
+    "company": {
+      "type": "component",
+      "component": "company.company",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

@@ -1,0 +1,54 @@
+{
+  "kind": "collectionType",
+  "collectionName": "worktogethers",
+  "info": {
+    "singularName": "worktogether",
+    "pluralName": "worktogethers",
+    "displayName": "worktogether"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "subTitle": {
+      "type": "string"
+    },
+    "icon": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "heroImage": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "planWithClarity": {
+      "type": "string"
+    },
+    "Quote": {
+      "type": "component",
+      "component": "quote.quote",
+      "repeatable": false
+    },
+    "Accordians": {
+      "type": "component",
+      "component": "accor.acoordian",
+      "repeatable": true
+    }
+  }
+}

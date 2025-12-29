@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "video_secs",
+  "info": {
+    "singularName": "video-sec",
+    "pluralName": "video-secs",
+    "displayName": "VideoSec"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "tabs": {
+      "type": "component",
+      "component": "card.cardwithlogo",
+      "repeatable": true
+    },
+    "logos": {
+      "type": "media",
+      "multiple": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  }
+}

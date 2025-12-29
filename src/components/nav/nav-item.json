@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_nav_nav_items",
+  "info": {
+    "displayName": "Nav Item"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string"
+    },
+    "hasDropdown": {
+      "type": "boolean"
+    },
+    "dropdownItems": {
+      "type": "component",
+      "component": "nav.nav-link",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

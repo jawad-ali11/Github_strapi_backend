@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "github_homes",
+  "info": {
+    "singularName": "github-home",
+    "pluralName": "github-homes",
+    "displayName": "GithubHome"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "tab1": {
+      "type": "string"
+    },
+    "tab2": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "subTitle": {
+      "type": "string"
+    },
+    "footerNote": {
+      "type": "string"
+    }
+  }
+}

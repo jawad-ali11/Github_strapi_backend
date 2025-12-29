@@ -1,0 +1,57 @@
+{
+  "kind": "collectionType",
+  "collectionName": "accelerate_workflows",
+  "info": {
+    "singularName": "accelerate-workflow",
+    "pluralName": "accelerate-workflows",
+    "displayName": "AccelerateWorkflow"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Accordians": {
+      "type": "component",
+      "component": "accor.acoordian",
+      "repeatable": true
+    },
+    "title": {
+      "type": "string"
+    },
+    "subTitle": {
+      "type": "string"
+    },
+    "icon": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "vedio": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "card1Title": {
+      "type": "string"
+    },
+    "card1Link": {
+      "type": "string"
+    },
+    "cardwithlogo": {
+      "type": "component",
+      "component": "card.cardwithlogo",
+      "repeatable": true
+    }
+  }
+}

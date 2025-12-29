@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_header_header_banners",
+  "info": {
+    "displayName": "Header Banner"
+  },
+  "options": {},
+  "attributes": {
+    "Icon": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "label": {
+      "type": "string"
+    },
+    "isVisible": {
+      "type": "boolean"
+    }
+  },
+  "config": {}
+}

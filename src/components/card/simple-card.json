@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_card_simple_cards",
+  "info": {
+    "displayName": "simpleCard"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "subTitle": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}
